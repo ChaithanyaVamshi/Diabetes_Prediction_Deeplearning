@@ -57,3 +57,30 @@ In this task, I have implemented hyperparameter tuning using GridSearchCV to bui
 - Hyperparameter Tuning "Activation Function" and "Kernel Initializer"
 - Hyperparameter Tuning "Hidden Layer Neuron 1" & "Hidden Layer Neuron 2"
 
+## Evaluating Model Performance on Train & Validation Data
+
+### Model Accuracy and Classification Report on Train & Validation Data
+
+After hyperparameter tuning using GridSearchCV on the Neural Network model, we have obtained a Training Accuracy of 76.45% and a Validation Accuracy of 79.1% which implies a better and an optimised model.
+
+### Neural Network: Model Loss on Train and Validation Data
+
+From the Model Loss chart, we can depict that as the number of epochs increases, the neural network model tends to lower the loss/cost on both training and validation data. 
+Hence, the Neural network model built is more effective and an optimised model.
+
+![image](https://user-images.githubusercontent.com/31254745/156683294-1bd54a1a-a181-4c05-bb75-48b264288aa6.png)
+
+
+### Neural Network: Model Accuracy on Train and Validation Data
+
+From the Model Accuracy chart, we can depict that as the number of epochs increases, the neural network model tends to increase the accuracy on both training and validation data. Hence, the Neural network model built is more effective and an optimised model.
+
+![image](https://user-images.githubusercontent.com/31254745/156683345-f8eacbcc-9639-4f34-847f-aacc730bc82b.png)
+
+## Predictions on Test Data
+
+Using the Optimised Neural Network Model with the best hyperparameters and Accuracy, we will make predictions on test data and save predictions on .csv file name “test-predictions.csv”
+
+## Conclusion 
+
+In this project, we discussed how to approach the classification problem and predict the possibility of diabetes by implementing a Neural networks model using Keras and GridSearchCV. We can explore this work further by trying to improve the accuracy by using advanced Deep Learning algorithms.
